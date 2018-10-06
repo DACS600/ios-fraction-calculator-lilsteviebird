@@ -9,5 +9,15 @@
 #ifndef Fraction_h
 #define Fraction_h
 
+@interface Fraction: NSObject
+
+@property int numerator;
+@property int denominator;
+
+
+
+-(void) setNumerator: (int)n setDenominator: (int)d;
+
+@end
 
 #endif /* Fraction_h */

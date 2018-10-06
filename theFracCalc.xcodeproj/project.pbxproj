@@ -15,6 +15,8 @@
 		3F8584342163F3DB00557492 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8584332163F3DB00557492 /* main.m */; };
 		3F85843E2163F3DB00557492 /* theFracCalcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F85843D2163F3DB00557492 /* theFracCalcTests.m */; };
 		3F8584492163F3DB00557492 /* theFracCalcUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8584482163F3DB00557492 /* theFracCalcUITests.m */; };
+		3F8584572166935E00557492 /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8584562166935E00557492 /* Fraction.m */; };
+		3F8584592166936E00557492 /* FracCalc.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8584582166936E00557492 /* FracCalc.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		3F8584442163F3DB00557492 /* theFracCalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = theFracCalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F8584482163F3DB00557492 /* theFracCalcUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = theFracCalcUITests.m; sourceTree = "<group>"; };
 		3F85844A2163F3DB00557492 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F8584562166935E00557492 /* Fraction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
+		3F8584582166936E00557492 /* FracCalc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FracCalc.m; sourceTree = "<group>"; };
+		3F85845A2166937D00557492 /* Fraction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
+		3F85845B2166938800557492 /* FracCalc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FracCalc.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,10 @@
 				3F85842F2163F3DB00557492 /* LaunchScreen.storyboard */,
 				3F8584322163F3DB00557492 /* Info.plist */,
 				3F8584332163F3DB00557492 /* main.m */,
+				3F8584562166935E00557492 /* Fraction.m */,
+				3F8584582166936E00557492 /* FracCalc.m */,
+				3F85845A2166937D00557492 /* Fraction.h */,
+				3F85845B2166938800557492 /* FracCalc.h */,
 			);
 			path = theFracCalc;
 			sourceTree = "<group>";
@@ -265,6 +275,8 @@
 				3F8584292163F3CE00557492 /* ViewController.m in Sources */,
 				3F8584342163F3DB00557492 /* main.m in Sources */,
 				3F8584262163F3CE00557492 /* AppDelegate.m in Sources */,
+				3F8584572166935E00557492 /* Fraction.m in Sources */,
+				3F8584592166936E00557492 /* FracCalc.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
