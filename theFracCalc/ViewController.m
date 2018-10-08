@@ -50,7 +50,7 @@
 }
 
 -(IBAction)numberPressed:(UIButton *)sender{
-    int numSent = sender.tag;
+    int numSent = (int)sender.tag;
     if(opCount <= 1){
         if(fracOpPressed == false){
             if(firstFracNum == NULL){
@@ -160,25 +160,31 @@
 - (IBAction)equalsPressed:(id)sender {
     if(addPressed == 1){
         [self.fractionComputed setBaseFraction: self.firstFraction];
-       // [self.fractionComputed addFraction: self.secondFraction];
+        
+        [self.fractionComputed addFraction: self.secondFraction];
+        
         self.myLabel.text = [self.fractionComputed addFraction: self.secondFraction];
         
     }else if(minusPressed == 1){
         [self.fractionComputed setBaseFraction: self.firstFraction];
-        //[self.fractionComputed subtractFraction: self.secondFraction];
+        
+        [self.fractionComputed subtractFraction: self.secondFraction];
+        
         self.myLabel.text = [self.fractionComputed subtractFraction: self.secondFraction];
         
         
     }else if(timesPressed == 1){
         [self.fractionComputed setBaseFraction: self.firstFraction];
-        printf("is his one that is playing");
-        //[self.fractionComputed multiplyFraction: self.secondFraction];
-        printf(" 2123 is his one that is playing");
+
+        [self.fractionComputed multiplyFraction: self.secondFraction];
+
         self.myLabel.text = [self.fractionComputed multiplyFraction: self.secondFraction];
         
     }else if(divPressed){
         [self.fractionComputed setBaseFraction: self.firstFraction];
-        //[self.fractionComputed divideFraction: self.secondFraction];
+        
+        [self.fractionComputed divideFraction: self.secondFraction];
+        
         self.myLabel.text = [self.fractionComputed divideFraction: self.secondFraction];
         
     }
